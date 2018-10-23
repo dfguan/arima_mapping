@@ -1,0 +1,12 @@
+{
+	"FOFN": "basename_of_fastq_files",
+	"SRA": "fAnaTes1",
+	"LABEL": "fAnaTes1l",
+	"REF":"/path/to/reference_sequences/reference_sequeneces.fa",
+	"FILTER":"/path/to/filter_five_end.pl",
+	"COMBINER":"/path/to/two_read_bam_combiner.pl",
+	"PICARD":"/software/picard/picard-2.6.0/build/libs/picard.jar",
+	"TMP_DIR":"/path/to/write/out/temporary/files",
+	"MAPQ_FILTER":"10",
+	"OUT_DIR": ""
+}

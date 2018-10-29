@@ -1,12 +1,12 @@
 {
-	"FOFN": "basename_of_fastq_files",
+	"FOFN": "../fAnaTes1/hic.fofn",
 	"SRA": "fAnaTes1",
 	"LABEL": "fAnaTes1l",
-	"REF":"/path/to/reference_sequences/reference_sequeneces.fa",
-	"FILTER":"/path/to/filter_five_end.pl",
-	"COMBINER":"/path/to/two_read_bam_combiner.pl",
-	"PICARD":"/software/picard/picard-2.6.0/build/libs/picard.jar",
-	"TMP_DIR":"/path/to/write/out/temporary/files",
+	"REF":"../refs/fAnaTes1.curated_primary.fa",
+	"FILTER":"./filter_five_end.pl",
+	"COMBINER":"./two_read_bam_combiner.pl",
+	"PICARD":"./picard.jar",
+	"TMP_DIR":"fAnaTes1_tmp_dir",
 	"MAPQ_FILTER":"10",
-	"OUT_DIR": ""
+	"OUT_DIR": "fAnaTes1.curate_primary"
 }

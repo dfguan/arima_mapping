@@ -1,8 +1,6 @@
 #!/usr/bin/env python3
 import sys, os, json
-sys.path.append("./runner")
-from hpc import hpc
-from manager import manager 
+from runner.runner import manager, hpc
 from multiprocessing import Process, Pool
 
 def checkf(p):
